@@ -31,3 +31,4 @@ if __name__ == "__main__":
     PARSER.set_defaults(func=bad_args)
     ARGUMENTS = PARSER.parse_args()
     ARGUMENTS.func(ARGUMENTS)
+
