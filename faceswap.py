@@ -16,7 +16,7 @@ def bad_args(args):
     exit(0)
 
 # sys.argv = ['/Users/barh/MyProjects/deepfake/faceswap/faceswap.py',
-#             'extract', '-i', '../images/miki_zohar/', '-o', '../data/miki_zohar/']
+#             'extract', '-i', '../images/miki_zohar/', '-o', '../tmp/']
 
 if __name__ == "__main__":
     PARSER = cli.FullHelpArgumentParser()
